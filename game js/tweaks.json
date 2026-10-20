@@ -1,0 +1,169 @@
+{
+  "humanSpeed": {
+    "type": "number",
+    "value": 6.5,
+    "min": 4,
+    "max": 9,
+    "step": 0.1,
+    "name": "Kecepatan manusia",
+    "description": "How fast the hunter runs in human form (tiles per second).",
+    "group": "def:player",
+    "index": 1
+  },
+  "wolfSpeed": {
+    "type": "number",
+    "value": 9.5,
+    "min": 6,
+    "max": 13,
+    "step": 0.1,
+    "name": "Kecepatan serigala",
+    "description": "How fast the wolf form runs (tiles per second).",
+    "group": "def:player",
+    "index": 2
+  },
+  "jumpHeight": {
+    "type": "number",
+    "value": 3.2,
+    "min": 2.5,
+    "max": 4.2,
+    "step": 0.1,
+    "name": "Tinggi lompat",
+    "description": "Human jump height in tiles; the wolf jumps 18% higher, Eclipse 40% higher.",
+    "group": "def:player",
+    "index": 3
+  },
+  "maxHearts": {
+    "type": "number",
+    "value": 5,
+    "min": 3,
+    "max": 8,
+    "step": 1,
+    "name": "Jumlah hati",
+    "description": "Hearts the hunter starts with; refilled at every checkpoint.",
+    "group": "def:player",
+    "index": 4,
+    "appliesOn": "restart"
+  },
+  "ultiDuration": {
+    "type": "number",
+    "value": 8,
+    "min": 4,
+    "max": 14,
+    "step": 0.5,
+    "name": "Durasi Eclipse",
+    "description": "Seconds the giant Eclipse Form lasts before the spirit wolf finisher.",
+    "group": "def:eclipse",
+    "index": 1
+  },
+  "ultiGain": {
+    "type": "number",
+    "value": 1,
+    "min": 0.5,
+    "max": 3,
+    "step": 0.1,
+    "name": "Pengisian ulti",
+    "description": "Multiplier on how fast hits, marks and shards fill the crescent meter.",
+    "group": "def:eclipse",
+    "index": 2
+  },
+  "shadowDuration": {
+    "type": "number",
+    "value": 12,
+    "min": 6,
+    "max": 20,
+    "step": 1,
+    "name": "Durasi bayangan",
+    "description": "Seconds shadow platforms stay solid after a howl at a moon altar.",
+    "group": "def:moon-altar",
+    "index": 1
+  },
+  "archerInterval": {
+    "type": "number",
+    "value": 2.4,
+    "min": 1.2,
+    "max": 4,
+    "step": 0.1,
+    "name": "Jeda tembakan",
+    "description": "Average seconds between masked archer shots.",
+    "group": "def:archer",
+    "index": 1
+  },
+  "houndSpeed": {
+    "type": "number",
+    "value": 7,
+    "min": 4,
+    "max": 10,
+    "step": 0.5,
+    "name": "Kecepatan anjing",
+    "description": "How fast clockwork hounds run toward the last sound they heard.",
+    "group": "def:hound",
+    "index": 1
+  },
+  "bossHealth": {
+    "type": "number",
+    "value": 40,
+    "min": 20,
+    "max": 80,
+    "step": 5,
+    "name": "Darah boss",
+    "description": "Health of the Shadowless Wolf.",
+    "group": "def:boss",
+    "index": 1,
+    "appliesOn": "restart"
+  },
+  "bossMirrorDelay": {
+    "type": "number",
+    "value": 1,
+    "min": 0.4,
+    "max": 2,
+    "step": 0.1,
+    "name": "Jeda meniru",
+    "description": "Seconds before the Shadowless Wolf copies your form — the window to punish it.",
+    "group": "def:boss",
+    "index": 2
+  },
+  "cameraLookahead": {
+    "type": "number",
+    "value": 2.2,
+    "min": 0,
+    "max": 4,
+    "step": 0.1,
+    "name": "Pandangan ke depan",
+    "description": "How many tiles the camera leads in the direction you face.",
+    "group": "def:camera",
+    "index": 1
+  },
+  "screenShake": {
+    "type": "number",
+    "value": 1,
+    "min": 0,
+    "max": 2,
+    "step": 0.1,
+    "name": "Guncangan layar",
+    "description": "Strength of screen shake on heavy hits, slams and transformations.",
+    "group": "def:effects",
+    "index": 1
+  },
+  "musicVolume": {
+    "type": "number",
+    "value": 0.35,
+    "min": 0,
+    "max": 1,
+    "step": 0.05,
+    "name": "Volume musik",
+    "description": "Loudness of the night and boss music.",
+    "group": "sound",
+    "index": 1
+  },
+  "sfxVolume": {
+    "type": "number",
+    "value": 0.8,
+    "min": 0,
+    "max": 1,
+    "step": 0.05,
+    "name": "Volume efek",
+    "description": "Loudness of slashes, howls, impacts and pickups.",
+    "group": "sound",
+    "index": 2
+  }
+}

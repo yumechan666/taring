@@ -1,0 +1,2748 @@
+{
+  "HERO_HUMAN_MOVE": {
+    "src": "/generated-assets/hero_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Pemburu manusia — gerak",
+    "recipe": {
+      "prompt": "Use case: animated player character sprite sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): hooded hunter — slim young man, dark charcoal-indigo hooded cloak with tattered hem, long crimson scarf trailing behind, dark leather armor and boots, pale face with glowing amber eyes under the hood, a short curved silver sickle held in his right hand. Full body, side view, facing right.\nRows: idle = breathing stance, sickle low, cloak and scarf swaying gently (looping); run = fast run cycle, cloak and scarf streaming back (looping, last frame leads into first); jump = crouch takeoff to rising leap with knees tucked, scarf flowing down; fall = descending pose, arms out for balance, cloak billowing upward (looping flutter).\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, deep indigo and slate tones, moon-white rim highlights, blood-crimson scarf accent. Match the attached reference character.\nComposition: same character size, proportions and colors in every frame; feet on a consistent ground line; whole body inside each cell.\nAvoid: background scenery, ground shadows, text, extra characters, changing outfit between frames, cropping the sickle.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "idle",
+            "frames": 5
+          },
+          {
+            "name": "run",
+            "frames": 5
+          },
+          {
+            "name": "jump",
+            "frames": 5
+          },
+          {
+            "name": "fall",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "HERO_WOLF_MOVE": {
+    "src": "/generated-assets/hero_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Serigala — gerak",
+    "recipe": {
+      "prompt": "Use case: animated player character sprite sheet (wolf form) for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): lean silver-grey wolf with a pale white mane on its neck, glowing amber eyes, dark grey back fur, a tattered long crimson scarf tied around its neck trailing behind. Full body, side view, facing right.\nRows: idle = standing alert, chest breathing, tail and scarf swaying (looping); run = fast galloping cycle, body stretched, legs reaching (looping, last frame leads into first); jump = crouch then leaping upward with forelegs tucked; pounce = low crouch, explosive horizontal lunge with claws forward and jaws open, landing.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, slate-grey and moon-white fur, blood-crimson scarf accent. Match the attached reference art style.\nComposition: same wolf size, proportions and colors in every frame; paws on a consistent ground line; whole body inside each cell.\nAvoid: background scenery, ground shadows, text, extra animals, changing colors between frames, cropping the tail.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "idle",
+            "frames": 5
+          },
+          {
+            "name": "run",
+            "frames": 5
+          },
+          {
+            "name": "jump",
+            "frames": 5
+          },
+          {
+            "name": "pounce",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "HERO_HUMAN_COMBAT": {
+    "src": "/generated-assets/hero_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Pemburu manusia — combo sabit & kait",
+    "recipe": {
+      "prompt": "Use case: player character attack animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): hooded hunter — slim young man, dark charcoal-indigo hooded cloak with tattered hem, long crimson scarf, dark leather armor with brown belts and boots, pale face with glowing amber eyes under the hood, a short curved silver sickle in his right hand. Full body, side view, facing right.\nRows: slash1 = wind-up then fast horizontal forward sickle slash, follow-through, recover; slash2 = rising diagonal backhand slash upward, cloak whipping; slash3 = big spinning overhead slash that ends by yanking the sickle back toward himself, finisher pose; hook = throws a glowing silver hook on a chain forward with his left hand (chain extends to the right edge of the cell in frames 2-4), then pulls back.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, deep indigo and slate tones, moon-white rim highlights, blood-crimson scarf accent. Match the attached reference character.\nComposition: same character size and proportions in every frame; feet planted on a consistent ground line; body roughly centered; whole sickle inside each cell.\nAvoid: background, ground shadows, slash effect trails, text, extra characters, outfit changes.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "slash1",
+            "frames": 5
+          },
+          {
+            "name": "slash2",
+            "frames": 5
+          },
+          {
+            "name": "slash3",
+            "frames": 5
+          },
+          {
+            "name": "hook",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "HERO_HUMAN_ACTION": {
+    "src": "/generated-assets/hero_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Pemburu manusia — tangkis, tepian, terluka, berubah",
+    "recipe": {
+      "prompt": "Use case: player character action animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject: hooded hunter — slim young man, dark charcoal-indigo hooded cloak with tattered hem, long crimson scarf, dark leather armor with brown belts and boots, pale face with glowing amber eyes under the hood, a short curved silver sickle in his right hand. Side view, facing right.\nRows: deflect = braced stance raising the sickle crosswise in front to parry, sparks of moonlight at the blade, then lowering; hang = hanging from a ledge by both hands raised straight above his head, body dangling below, gentle sway (hands at the top of the cell, feet near the bottom, looping); hurt = knocked back recoil, head snapping back, cloak flaring, recovering; transform = he hunches forward on all fours as silver-grey wolf fur and a white mane burst from the cloak, finishing as a lean silver-grey wolf wearing the same crimson scarf (frame 1 human, frame 3 half-beast, frame 5 full wolf).\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, deep indigo and slate tones, moon-white rim highlights, blood-crimson scarf accent. Match the attached reference.\nComposition: consistent character size; feet on a consistent ground line for all rows except hang; whole figure inside each cell.\nAvoid: background, ground shadows, the ledge itself, text, extra characters.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "deflect",
+            "frames": 5
+          },
+          {
+            "name": "hang",
+            "frames": 5
+          },
+          {
+            "name": "hurt",
+            "frames": 5
+          },
+          {
+            "name": "transform",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "HERO_WOLF_ACTION": {
+    "src": "/generated-assets/hero_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Serigala — endus, lolong, terluka",
+    "recipe": {
+      "prompt": "Use case: player wolf-form action animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): lean silver-grey wolf, dark grey body fur, big spiky pale white mane around neck and head, glowing amber eyes, long tattered crimson scarf tied around the neck, bushy grey tail. Full body, side view, facing right.\nRows: sniff = lowers nose to the ground, sniffing left and right, tail swaying (looping); howl = sits back and raises head high toward the sky, muzzle open in a long howl, chest swelling; hurt = flinches back from a hit, ears flat, staggering, recovers.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, slate-grey and moon-white fur, blood-crimson scarf. Match the attached reference style.\nComposition: same wolf size and proportions in every frame; paws on a consistent ground line; whole body inside each cell.\nAvoid: background, ground shadows, sound wave effects, text, extra animals.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "sniff",
+            "frames": 5
+          },
+          {
+            "name": "howl",
+            "frames": 5
+          },
+          {
+            "name": "hurt",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "HERO_WOLF_COMBAT": {
+    "src": "/generated-assets/hero_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Serigala — cakar, gigit, hantam, merayap",
+    "recipe": {
+      "prompt": "Use case: player wolf-form attack animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): lean silver-grey wolf, dark grey body fur, big spiky pale white mane around neck and head, glowing amber eyes, long tattered crimson scarf tied around the neck trailing behind, bushy grey tail. Full body, side view, facing right.\nRows: claw = rears up slightly and swipes one foreleg forward with claws out, lands; bite = lunges head forward with jaws wide open snapping shut, recoil; slam = leaps up and crashes down shoulder-first into the ground with forepaws, heavy impact pose; crawl = low creeping crawl with belly near the ground, ears back, slinking forward (looping).\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, slate-grey and moon-white fur, blood-crimson scarf. Match the attached reference style.\nComposition: same wolf size and proportions in every frame; paws on a consistent ground line; whole body inside each cell.\nAvoid: background, ground shadows, effect trails, text, extra animals, color changes.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "claw",
+            "frames": 5
+          },
+          {
+            "name": "bite",
+            "frames": 5
+          },
+          {
+            "name": "slam",
+            "frames": 5
+          },
+          {
+            "name": "crawl",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_HUMAN": {
+    "src": "/generated-assets/boss_human-transparent.webp",
+    "kind": "image",
+    "label": "Serigala Tanpa Bayangan — wujud manusia",
+    "recipe": {
+      "prompt": "Use case: boss animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): the Shadowless Wolf in human form — a dark twin of a hooded sickle hunter, his whole body made of glossy black ink and shadow with a deep violet sheen, ragged hooded cloak dissolving into wisps of smoke at the edges, ash-grey tattered scarf, no visible face except two glowing blood-red eyes under the hood, a jagged black sickle with a red edge. Full body, side view, facing right.\nRows: human_idle = menacing stance, smoke wisps drifting (looping); human_run = fast predatory run, cloak streaming smoke (looping); human_slash = lunging horizontal sickle slash with follow-through; transform = hunches forward and erupts into a black shadow wolf with red eyes (frame 5 full wolf).\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, black and violet with blood-red accents. Match the attached reference style.\nComposition: same size and proportions in every frame; feet on a consistent ground line; whole figure inside each cell.\nAvoid: background, ground shadows, text, extra characters.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "human_idle",
+            "frames": 5
+          },
+          {
+            "name": "human_run",
+            "frames": 5
+          },
+          {
+            "name": "human_slash",
+            "frames": 5
+          },
+          {
+            "name": "transform",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "HERO_ECLIPSE": {
+    "src": "/generated-assets/hero_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Eclipse Form — manusia-serigala",
+    "recipe": {
+      "prompt": "Use case: ultimate-form animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): towering hulking bipedal werewolf — silver-grey fur, huge spiky moon-white mane, glowing amber eyes with pale blue moonlight aura edges, torn remains of a dark indigo hooded cloak on its shoulders, long tattered crimson scarf, enormous clawed hands, digitigrade legs. Full body, side view, facing right.\nRows: idle = hunched powerful stance, shoulders heaving, claws flexing (looping); run = heavy loping bipedal sprint, arms swinging (looping); claw = wide sweeping two-handed claw swipe in a big arc in front; slam = leaps and smashes both fists into the ground, crouched impact pose.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, slate-grey and moon-white fur, blood-crimson scarf. Match the attached reference style.\nComposition: same size and proportions in every frame; feet on a consistent ground line; whole body inside each cell.\nAvoid: background, ground shadows, effect trails, text, extra characters.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "idle",
+            "frames": 5
+          },
+          {
+            "name": "run",
+            "frames": 5
+          },
+          {
+            "name": "claw",
+            "frames": 5
+          },
+          {
+            "name": "slam",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_WOLF": {
+    "src": "/generated-assets/boss_wolf-transparent.webp",
+    "kind": "image",
+    "label": "Serigala Tanpa Bayangan — wujud serigala & Eclipse",
+    "recipe": {
+      "prompt": "Use case: boss animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject: the Shadowless Wolf — a large wolf made of glossy black ink and shadow with a deep violet sheen, spiky smoky mane dissolving into wisps, two glowing blood-red eyes, ash-grey tattered scarf around the neck. Side view, facing right.\nRows: wolf_idle = low snarling stance, smoke drifting off the fur (looping); wolf_run = fast galloping cycle (looping); wolf_lunge = crouch then explosive forward lunge with jaws open and claws out, landing; eclipse_slam = the same shadow creature as a towering bipedal black werewolf with red eyes, raising both fists and smashing them into the ground.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, black and violet with blood-red accents. Match the attached reference style.\nComposition: consistent size within each row; feet on a consistent ground line; whole body inside each cell.\nAvoid: background, ground shadows, text, extra characters.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "wolf_idle",
+            "frames": 5
+          },
+          {
+            "name": "wolf_run",
+            "frames": 5
+          },
+          {
+            "name": "wolf_lunge",
+            "frames": 5
+          },
+          {
+            "name": "eclipse_slam",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "ENEMY_ARCHER": {
+    "src": "/generated-assets/enemy_archer-transparent.webp",
+    "kind": "image",
+    "label": "Pemanah bertopeng",
+    "recipe": {
+      "prompt": "Use case: enemy animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): masked hunter archer — white plague-doctor beaked mask, wide-brimmed dark hat, ragged brown leather coat with belts and bolt quiver, dark boots, holding a wooden crossbow. Full body, side view, facing left.\nRows: idle = alert stance, crossbow lowered, slight breathing (looping); shoot = raises crossbow, aims, fires with recoil, reloads; hurt = staggers back from a hit, hat tilting, then collapses to one knee.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, muted browns and greys with bone-white mask. Match the attached reference style.\nComposition: same size in every frame; feet on a consistent ground line; whole body inside each cell.\nAvoid: background, ground shadows, flying bolts, text, extra characters.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "idle",
+            "frames": 5
+          },
+          {
+            "name": "shoot",
+            "frames": 5
+          },
+          {
+            "name": "hurt",
+            "frames": 5
+          }
+        ],
+        "facing": "left",
+        "removeBackground": true
+      }
+    }
+  },
+  "ENEMY_LANTERN": {
+    "src": "/generated-assets/enemy_lantern-transparent.webp",
+    "kind": "image",
+    "label": "Pemburu lentera",
+    "recipe": {
+      "prompt": "Use case: enemy animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): lantern hunter — tall gaunt hunter in a long dark hooded coat, white beaked plague mask, holding a glowing orange iron lantern forward on a short pole in the front hand, a sheathed knife at the belt. Full body, side view, facing left.\nRows: walk = slow searching patrol walk holding the lantern out in front (looping); swing = swings the lantern pole in a heavy overhead arc as a melee strike; hurt = recoils from a hit, lantern swinging wildly, then slumps.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, dark slate coat, bone-white mask, warm orange lantern glow. Match the attached reference style.\nComposition: same size in every frame; feet on a consistent ground line; whole body and lantern inside each cell.\nAvoid: background, light cones, ground shadows, text, extra characters.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "walk",
+            "frames": 5
+          },
+          {
+            "name": "swing",
+            "frames": 5
+          },
+          {
+            "name": "hurt",
+            "frames": 5
+          }
+        ],
+        "facing": "left",
+        "removeBackground": true
+      }
+    }
+  },
+  "ENEMY_KNIGHT": {
+    "src": "/generated-assets/enemy_knight-transparent.webp",
+    "kind": "image",
+    "label": "Ksatria duri",
+    "recipe": {
+      "prompt": "Use case: enemy animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): thorn knight — bulky warrior in dark blackened iron plate armor wrapped in thorny black vines, closed helm with a glowing red eye slit, holding a huge tall tower shield covered in iron spikes and thorns in front of his body, a short mace behind. Full body, side view, facing left, shield on the facing side.\nRows: walk = slow heavy stomping advance behind the shield (looping); bash = braces then rams the spiked shield forward in a charging bash; hurt = staggers from a blow on the back, armor sparking, then kneels.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, blackened iron, dark green-black thorns, red eye glow. Match the attached reference style.\nComposition: same size in every frame; feet on a consistent ground line; whole body inside each cell.\nAvoid: background, ground shadows, text, extra characters.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "walk",
+            "frames": 5
+          },
+          {
+            "name": "bash",
+            "frames": 5
+          },
+          {
+            "name": "hurt",
+            "frames": 5
+          }
+        ],
+        "facing": "left",
+        "removeBackground": true
+      }
+    }
+  },
+  "ENEMY_CROW": {
+    "src": "/generated-assets/enemy_crow-transparent.webp",
+    "kind": "image",
+    "label": "Gagak pencuri bulan",
+    "recipe": {
+      "prompt": "Use case: flying enemy animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): moon-thief crow — large black crow with ragged feathers, a tiny silver domino mask over glowing pale-blue eyes, a small cloth sack tied to one foot. Side view, facing left.\nRows: fly = flapping flight cycle, wings up to down (looping); swoop = wings tucked into a steep diving swoop with talons forward, then pulling up; hurt = knocked tumbling, feathers flying, falling.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, black and indigo feathers, silver mask. Match the attached reference style.\nComposition: same size in every frame; bird centered in each cell; whole wingspan inside each cell.\nAvoid: background, shadows, text, extra birds.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "fly",
+            "frames": 5
+          },
+          {
+            "name": "swoop",
+            "frames": 5
+          },
+          {
+            "name": "hurt",
+            "frames": 5
+          }
+        ],
+        "facing": "left",
+        "removeBackground": true
+      }
+    }
+  },
+  "ENEMY_HOUND": {
+    "src": "/generated-assets/enemy_hound-transparent.webp",
+    "kind": "image",
+    "label": "Anjing mekanik",
+    "recipe": {
+      "prompt": "Use case: enemy animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): mechanical hound — lean clockwork hunting dog of dark riveted iron plates, exposed brass gears at the shoulder, a single glowing orange furnace eye, big ear-like brass funnel ears for hearing, steam vents on its back, steel jaw. Full body, side view, facing left.\nRows: run = fast clanking gallop (looping); bite = skids, rears and snaps steel jaws forward; hurt = jolts from a hit, sparks and loose gears, sagging.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, dark iron, dull brass, orange glow. Match the attached reference style.\nComposition: same size in every frame; paws on a consistent ground line; whole body inside each cell.\nAvoid: background, ground shadows, text, extra animals.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "run",
+            "frames": 5
+          },
+          {
+            "name": "bite",
+            "frames": 5
+          },
+          {
+            "name": "hurt",
+            "frames": 5
+          }
+        ],
+        "facing": "left",
+        "removeBackground": true
+      }
+    }
+  },
+  "ENEMY_STITCHER": {
+    "src": "/generated-assets/enemy_stitcher-transparent.webp",
+    "kind": "image",
+    "label": "Penjahit bayangan",
+    "recipe": {
+      "prompt": "Use case: enemy animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject (identical in every frame): shadow tailor — gaunt hovering figure in long tattered black robes that fade into wisps instead of legs, pale stitched-shut mouth on a grey face, long needle-like fingers, holding a huge silver sewing needle trailing a glowing violet thread, a spool on its belt. Side view, facing left.\nRows: float = hovering bob, robes rippling (looping); cast = draws back the needle and flings it forward, violet thread whipping out; hurt = recoils, robes torn, thread snapping.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, black robes, pale grey skin, glowing violet thread. Match the attached reference style.\nComposition: same size in every frame; figure centered in each cell, hovering above the cell bottom; whole figure inside each cell.\nAvoid: background, shadows, text, extra characters.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "float",
+            "frames": 5
+          },
+          {
+            "name": "cast",
+            "frames": 5
+          },
+          {
+            "name": "hurt",
+            "frames": 5
+          }
+        ],
+        "facing": "left",
+        "removeBackground": true
+      }
+    }
+  },
+  "ENEMY_MIMIC": {
+    "src": "/generated-assets/enemy_mimic-transparent.webp",
+    "kind": "image",
+    "label": "Peniru kawanan",
+    "recipe": {
+      "prompt": "Use case: enemy animation sheet for a side-view 2D dark-fantasy action platformer.\nSubject: pack mimic — disguised as a small injured grey wolf, but really a black creature of oily shadow with too many teeth. Side view, facing left.\nRows: disguise = small grey wolf lying hurt with a limp paw raised, whimpering, ears down, eyes slightly too bright (looping); reveal = the wolf skin splits down the back and a lanky black shadow creature with a long jagged jaw full of white teeth rises out of it; attack = the black creature lunges forward with jaws gaping wide; hurt = the black creature shrieks and recoils, oozing smoke.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, grey fur for the disguise, oily black with bone-white teeth and sickly yellow eyes for the true form. Match the attached reference style.\nComposition: consistent creature size across rows; feet on a consistent ground line; whole body inside each cell.\nAvoid: background, ground shadows, text, extra characters.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "disguise",
+            "frames": 5
+          },
+          {
+            "name": "reveal",
+            "frames": 5
+          },
+          {
+            "name": "attack",
+            "frames": 5
+          },
+          {
+            "name": "hurt",
+            "frames": 5
+          }
+        ],
+        "facing": "left",
+        "removeBackground": true
+      }
+    }
+  },
+  "FX_COMBAT": {
+    "src": "/generated-assets/fx_combat-transparent.webp",
+    "kind": "image",
+    "label": "Efek tebasan, cakar, tanda bulan, retak",
+    "recipe": {
+      "prompt": "Use case: combat effect animation sheet for a side-view 2D dark-fantasy action platformer, drawn over characters.\nRows: slash = crisp crescent-shaped silver-white sickle slash arc sweeping to the right, appearing thin, widening, then fading into shards; claw = three parallel jagged claw streaks in moon-white with crimson edges, ripping diagonally, then dissipating; moon_mark = a glowing pale-blue crescent moon sigil with a thin ring around it, popping in, pulsing, settling (looping pulse at the end); armor_crack = jagged white-hot crack lines spreading outward across an invisible surface with small dark iron shards flying off.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline on the shapes, solid flat colors with hard edges, moon-white, pale blue and crimson. Match the attached reference style.\nComposition: each effect centered in its cell, sized consistently within its row; hard-edged shapes only.\nAvoid: soft glows, blurry gradients, characters, background, text.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "effect_sheet",
+        "animations": [
+          {
+            "name": "slash",
+            "frames": 5
+          },
+          {
+            "name": "claw",
+            "frames": 5
+          },
+          {
+            "name": "moon_mark",
+            "frames": 5
+          },
+          {
+            "name": "armor_crack",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "FX_SPIRIT": {
+    "src": "/generated-assets/fx_spirit-transparent.webp",
+    "kind": "image",
+    "label": "Efek serigala roh, gelombang tanah, lolongan, kilau pecahan",
+    "recipe": {
+      "prompt": "Use case: special effect animation sheet for a side-view 2D dark-fantasy action platformer.\nRows: spirit_wolf = a translucent-looking ghostly wolf made of pale cyan-blue moonlight with white outline, galloping to the right in a leaping run cycle (looping, side view facing right); ground_wave = a low crescent shockwave of shattered rock and pale-blue energy rippling along the ground (sitting on the cell bottom), growing wider and fading; howl_rings = concentric pale-blue sound rings with crescent marks expanding outward from the left side; shard_sparkle = four-pointed moon-white star sparkles twinkling around a center point.\nStyle: hand-painted flat dark-fantasy look, crisp outline, solid flat colors with hard edges, pale cyan, moon-white, slate blue. Match the attached reference style.\nComposition: each effect centered in its cell, sized consistently within its row; hard-edged shapes only.\nAvoid: soft glows, blurry gradients, background, text.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "effect_sheet",
+        "animations": [
+          {
+            "name": "spirit_wolf",
+            "frames": 5
+          },
+          {
+            "name": "ground_wave",
+            "frames": 5
+          },
+          {
+            "name": "howl_rings",
+            "frames": 5
+          },
+          {
+            "name": "shard_sparkle",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "FX_IMPACT": {
+    "src": "/generated-assets/fx_impact-transparent.webp",
+    "kind": "image",
+    "label": "Efek benturan, debu, ledakan bulan & bayangan",
+    "recipe": {
+      "prompt": "Use case: impact effect animation sheet for a side-view 2D dark-fantasy action platformer.\nRows: hit_spark = sharp star-shaped impact flash in white and crimson with spiky rays, bursting then breaking into small shards; dust = grey-blue dust puff clouds kicked up sideways from the ground, growing and dispersing (sitting on the cell bottom); moon_burst = a burst of moon-white light petals and silver-grey fur tufts exploding outward in a ring, then scattering; shadow_burst = an inky black-violet smoke explosion with jagged edges and small dark wisps, expanding then dissolving.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline on the shapes, solid flat colors with hard edges. Match the attached reference style.\nComposition: each effect centered in its cell, sized consistently within its row; hard-edged shapes only.\nAvoid: soft glows, blurry gradients, characters, background, text.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "effect_sheet",
+        "animations": [
+          {
+            "name": "hit_spark",
+            "frames": 5
+          },
+          {
+            "name": "dust",
+            "frames": 5
+          },
+          {
+            "name": "moon_burst",
+            "frames": 5
+          },
+          {
+            "name": "shadow_burst",
+            "frames": 5
+          }
+        ],
+        "removeBackground": true
+      }
+    }
+  },
+  "PROPS_OBJECTS": {
+    "src": "/generated-assets/props_objects-transparent.webp",
+    "kind": "image",
+    "label": "Objek interaktif",
+    "recipe": {
+      "prompt": "Use case: object atlas for a side-view 2D dark-fantasy action platformer; each object is placed by code on a tile grid.\nSubject: moon_ring = floating silver ring with a small crescent spike on top, pale blue glint (grapple point); lever_off = iron floor lever on a stone base tilted left; lever_on = same lever tilted right with a small blue gem lit; moon_altar = small carved stone altar pedestal with a dull crescent moon relief on top; moon_altar_lit = same altar with the crescent glowing pale cyan-white; cracked_barricade = square wall of rough dark wooden planks with big cracks and splinters, fills the whole cell; fragile_floor = square block of crumbling cracked grey stone bricks with visible fissures, fills the whole cell; moon_shard = small glowing crescent-shaped crystal shard in moon-white and pale blue; checkpoint_off = unlit iron lantern on a wooden post with a dark tattered banner; checkpoint_on = same lantern lit with pale blue moonfire and banner showing a white wolf sigil; arrow = a single crossbow bolt with dark fletching, pointing left, horizontal; hook_head = silver grappling hook head with three curved prongs pointing right; chain_link = one short segment of silver chain, horizontal; heart = crimson heart-shaped gem with dark ink outline; heart_empty = the same heart shape as an empty dark slate socket; gate_block = square block of heavy black iron portcullis bars, fills the whole cell.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, deep indigo and slate tones, moon-white highlights, crimson accents. Match the attached reference style.\nComposition: one object per cell, side view, centered, consistent scale; block objects fill their cell edge to edge.\nAvoid: text, characters, background scenery, ground shadows, soft glows.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "atlas",
+        "parts": [
+          "moon_ring",
+          "lever_off",
+          "lever_on",
+          "moon_altar",
+          "moon_altar_lit",
+          "cracked_barricade",
+          "fragile_floor",
+          "moon_shard",
+          "checkpoint_off",
+          "checkpoint_on",
+          "arrow",
+          "hook_head",
+          "chain_link",
+          "heart",
+          "heart_empty",
+          "gate_block"
+        ],
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_VILLAGE": {
+    "src": "/generated-assets/tiles_village-transparent.webp",
+    "kind": "image",
+    "label": "Tile batu desa",
+    "recipe": {
+      "prompt": "Use case: nine-slice terrain tile set for side-view platforms in a 2D dark-fantasy platformer; code tiles the center and edges across solid ground blocks.\nMaterial: dark slate-blue fitted stone bricks with ink outlines; the top edge has a thin layer of dark green moss and short grass tufts; side edges are rough chiseled stone; bottom edge is jagged broken stone. Center is plain stone brick that tiles seamlessly in both directions.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, deep indigo/slate stone, muted moss green. Match the attached reference platform look.\nAvoid: text, characters, plants taller than a quarter tile, glow, perspective.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "tiles",
+        "parts": [
+          "top_left",
+          "top",
+          "top_right",
+          "left",
+          "center",
+          "right",
+          "bottom_left",
+          "bottom",
+          "bottom_right"
+        ],
+        "removeBackground": true
+      }
+    }
+  },
+  "PROPS_WORLD": {
+    "src": "/generated-assets/props_world-transparent.webp",
+    "kind": "image",
+    "label": "Properti dunia & sumber bayangan",
+    "recipe": {
+      "prompt": "Use case: world prop atlas for a side-view 2D dark-fantasy action platformer; code places each prop.\nSubject: fallen_tree = a toppled dead tree trunk lying horizontally with broken branches, dark bark; mill_wheel = a wooden water-mill wheel with paddles seen side-on, round; iron_bars = a tall rusty iron jail-bar grate in a stone frame; guard_lamp = a wall-mounted iron watch lamp with a lens facing left and orange light inside; wood_plank = a thin horizontal wooden walkway plank with two iron brackets underneath, spanning the full cell width, sitting at the top of the cell; shadow_block = a square stone block rendered as translucent-looking pale cyan-blue ghostly moon shadow with a bright pale outline and faint brick lines, filling the cell edge to edge; lamp_post = a crooked iron street lamp with a warm orange glass light; gravestone = a tilted cracked gravestone with moss; red_bush = a clump of blood-red autumn leaves bush; barrel = an old wooden barrel with iron hoops; signpost = a leaning wooden signpost with a wolf skull nailed on it, no letters; dead_tree = a small twisted leafless black tree.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, deep indigo and slate tones, moon-white highlights, crimson foliage. Match the attached reference style.\nComposition: one prop per cell, side view, centered on the cell bottom, consistent scale.\nAvoid: text, characters, background scenery, ground shadows, soft glows.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "atlas",
+        "parts": [
+          "fallen_tree",
+          "mill_wheel",
+          "iron_bars",
+          "guard_lamp",
+          "wood_plank",
+          "shadow_block",
+          "lamp_post",
+          "gravestone",
+          "red_bush",
+          "barrel",
+          "signpost",
+          "dead_tree"
+        ],
+        "removeBackground": true
+      }
+    }
+  },
+  "SKY_BG": {
+    "src": "/generated-assets/sky_bg.webp",
+    "kind": "image",
+    "label": "Langit bulan",
+    "recipe": {
+      "prompt": "Use case: farthest static background layer for a side-view 2D dark-fantasy platformer, drawn cover-scaled behind parallax layers.\nSubject: deep indigo night sky with layered thin dark clouds and a huge pale full moon in the upper-middle with faint crater detail, the moon bound by a few faint thin silver chains crossing in front of it; sky gets darker toward the top and slightly lighter misty slate-blue toward the bottom.\nStyle: hand-painted flat dark-fantasy look, crisp ink-edged cloud shapes, limited indigo, slate, moon-white palette. Match the attached reference sky.\nUsage contract: no repeat; lower half must be plain misty sky with no buildings, trees, ground or silhouettes (parallax layers sit there).\nAvoid: text, characters, buildings, trees, ground, UI.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "backdrop",
+        "size": "1440x1440",
+        "removeBackground": false
+      }
+    }
+  },
+  "TILES_FOREST": {
+    "src": "/generated-assets/tiles_forest-transparent.webp",
+    "kind": "image",
+    "label": "Tile tanah hutan merah",
+    "recipe": {
+      "prompt": "Use case: nine-slice terrain tile set for side-view platforms in a 2D dark-fantasy platformer, red forest area; code tiles the center and edges across solid ground blocks.\nMaterial: dark packed earth with gnarled black roots and embedded grey stones, ink outlines; the top edge is covered with fallen blood-red leaves and short dark grass; side edges are crumbling earth with hanging roots; bottom edge is jagged earth with dangling roots. Center tiles seamlessly in both directions.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, dark brown-violet earth, blood-crimson leaves. Match the attached reference style.\nAvoid: text, characters, tall plants, glow, perspective.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "tiles",
+        "parts": [
+          "top_left",
+          "top",
+          "top_right",
+          "left",
+          "center",
+          "right",
+          "bottom_left",
+          "bottom",
+          "bottom_right"
+        ],
+        "removeBackground": true
+      }
+    }
+  },
+  "FOREST_LAYER": {
+    "src": "/generated-assets/forest_layer-transparent.webp",
+    "kind": "image",
+    "label": "Siluet hutan merah",
+    "recipe": {
+      "prompt": "Use case: horizontally looping parallax layer behind the play area of a side-view 2D dark-fantasy platformer, red forest area.\nSubject: a band of large twisted trees with dense blood-red and dark crimson leaf canopies and dark trunks, a few ruined stone arches between them, standing on a continuous dark base that fills the bottom of the image; canopies rise to roughly the upper third; everything above is empty.\nStyle: hand-painted flat dark-fantasy look, flat shapes with ink outlines, dark indigo trunks, crimson and deep red foliage with subtle lighter edges. Match the attached reference red trees.\nUsage contract: tiles seamlessly horizontally; the bottom edge is a solid continuous dark base; empty above the canopy.\nAvoid: sky, moon, clouds, text, characters, foreground platforms.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "backdrop",
+        "size": "2400x800",
+        "scrollLoop": "horizontal",
+        "removeBackground": true
+      }
+    }
+  },
+  "VILLAGE_LAYER": {
+    "src": "/generated-assets/village_layer-transparent.webp",
+    "kind": "image",
+    "label": "Siluet desa berkabut",
+    "recipe": {
+      "prompt": "Use case: horizontally looping parallax layer behind the play area of a side-view 2D dark-fantasy platformer.\nSubject: a band of silhouetted medieval village buildings — crooked timber houses with steep roofs, a church spire, chimneys, a few tiny warm orange lit windows, and dark trees between them — standing on a continuous dark base that fills the bottom of the image; rooftops rise to roughly the middle of the image; everything above the rooftops is empty.\nStyle: hand-painted flat dark-fantasy look, flat dark slate-indigo silhouettes with subtle lighter rim edges, ink outlines. Match the attached reference background buildings.\nUsage contract: tiles seamlessly horizontally; the bottom edge is a solid continuous dark base; empty above the skyline.\nAvoid: sky, moon, clouds, text, characters, foreground platforms.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "backdrop",
+        "size": "2400x800",
+        "scrollLoop": "horizontal",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN2_HUMAN_MOVE": {
+    "src": "/generated-assets/skin2_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Kabut Perak — manusia gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Kabut Perak\" (Silver Mist): hooded cloak in pale silver-grey with misty white tattered hem, scarf in soft pale blue, armor in light steel grey with silver trim, glowing pale-blue eyes, the sickle bright polished silver. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN2_HUMAN_COMBAT": {
+    "src": "/generated-assets/skin2_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Kabut Perak — manusia serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Kabut Perak\" (Silver Mist): hooded cloak in pale silver-grey with misty white tattered hem, scarf in soft pale blue, armor in light steel grey with silver trim, glowing pale-blue eyes, the sickle and hook chain bright polished silver. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN2_WOLF_MOVE": {
+    "src": "/generated-assets/skin2_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Kabut Perak — serigala gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Kabut Perak\" (Silver Mist): the wolf has silver-white misty fur with pale grey shading, a bright white mane, glowing pale-blue eyes and a soft pale blue tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN2_HUMAN_ACTION": {
+    "src": "/generated-assets/skin2_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Kabut Perak — manusia aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Kabut Perak\" (Silver Mist): the human wears a pale silver-grey hooded cloak with misty white tattered hem, soft pale blue scarf, light steel-grey armor with silver trim, glowing pale-blue eyes, polished silver sickle; the wolf (last row) has silver-white misty fur, white mane and the pale blue scarf. Spark effects become pale blue-white. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN2_WOLF_COMBAT": {
+    "src": "/generated-assets/skin2_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Kabut Perak — serigala serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Kabut Perak\" (Silver Mist): the wolf has silver-white misty fur with pale grey shading, a bright white mane, glowing pale-blue eyes and a soft pale blue tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN3_HUMAN_MOVE": {
+    "src": "/generated-assets/skin3_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Taring Bara — manusia gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Taring Bara\" (Ember Fang): charcoal-black hooded cloak with glowing ember-orange cracks along the tattered hem, orange-red scarf, dark iron armor with orange trim, glowing orange eyes, the sickle blade glowing orange-hot. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN2_WOLF_ACTION": {
+    "src": "/generated-assets/skin2_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Kabut Perak — serigala aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Kabut Perak\" (Silver Mist): the wolf has silver-white misty fur with pale grey shading, a bright white mane, glowing pale-blue eyes and a soft pale blue tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN3_WOLF_COMBAT": {
+    "src": "/generated-assets/skin3_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Taring Bara — serigala serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Taring Bara\" (Ember Fang): the wolf has charcoal-black fur with glowing ember-orange cracks, a flame-orange mane with bright tips, glowing orange eyes and an orange-red tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN3_WOLF_MOVE": {
+    "src": "/generated-assets/skin3_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Taring Bara — serigala gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Taring Bara\" (Ember Fang): the wolf has charcoal-black fur with glowing ember-orange cracks, a flame-orange mane with bright tips, glowing orange eyes and an orange-red tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN3_WOLF_ACTION": {
+    "src": "/generated-assets/skin3_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Taring Bara — serigala aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Taring Bara\" (Ember Fang): the wolf has charcoal-black fur with glowing ember-orange cracks, a flame-orange mane with bright tips, glowing orange eyes and an orange-red tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN3_ECLIPSE": {
+    "src": "/generated-assets/skin3_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Skin Taring Bara — Eclipse",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Taring Bara\" (Ember Fang): the giant werewolf has charcoal-black fur with glowing ember-orange cracks, a flame-orange mane, glowing orange eyes, charred cloak remnants and an orange-red tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_eclipse-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN3_HUMAN_COMBAT": {
+    "src": "/generated-assets/skin3_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Taring Bara — manusia serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Taring Bara\" (Ember Fang): charcoal-black hooded cloak with glowing ember-orange cracks along the tattered hem, orange-red scarf, dark iron armor with orange trim, glowing orange eyes, the sickle blade and hook glowing orange-hot. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN2_ECLIPSE": {
+    "src": "/generated-assets/skin2_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Skin Kabut Perak — Eclipse",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Kabut Perak\" (Silver Mist): the giant werewolf has silver-white misty fur, a bright white mane, glowing pale-blue eyes, silver-grey cloak remnants and a pale blue tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_eclipse-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN3_HUMAN_ACTION": {
+    "src": "/generated-assets/skin3_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Taring Bara — manusia aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Taring Bara\" (Ember Fang): the human wears a charcoal-black hooded cloak with glowing ember-orange cracks, orange-red scarf, dark iron armor with orange trim, glowing orange eyes, orange-hot sickle; the wolf (last row) has charcoal-black fur with glowing ember cracks, a flame-orange mane and the orange-red scarf. Spark effects become orange embers. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN4_HUMAN_MOVE": {
+    "src": "/generated-assets/skin4_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Bayang Gagak — manusia gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Bayang Gagak\" (Crow Shadow): hooded cloak made of glossy black crow feathers with violet sheen, violet scarf, black leather armor with violet trim, glowing violet eyes, dark violet sickle. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN4_HUMAN_COMBAT": {
+    "src": "/generated-assets/skin4_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Bayang Gagak — manusia serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Bayang Gagak\" (Crow Shadow): hooded cloak made of glossy black crow feathers with violet sheen, violet scarf, black leather armor with violet trim, glowing violet eyes, dark violet sickle and hook. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN4_WOLF_MOVE": {
+    "src": "/generated-assets/skin4_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Bayang Gagak — serigala gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Bayang Gagak\" (Crow Shadow): the wolf has jet-black fur with violet sheen, a mane of black crow feathers, glowing violet eyes and a violet tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN4_HUMAN_ACTION": {
+    "src": "/generated-assets/skin4_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Bayang Gagak — manusia aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Bayang Gagak\" (Crow Shadow): the human wears a cloak of glossy black crow feathers with violet sheen, violet scarf, black leather armor, glowing violet eyes, dark violet sickle; the wolf (last row) has jet-black fur with a crow-feather mane, violet eyes and the violet scarf. Spark effects become violet. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN4_WOLF_ACTION": {
+    "src": "/generated-assets/skin4_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Bayang Gagak — serigala aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Bayang Gagak\" (Crow Shadow): the wolf has jet-black fur with violet sheen, a mane of black crow feathers, glowing violet eyes and a violet tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN4_WOLF_COMBAT": {
+    "src": "/generated-assets/skin4_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Bayang Gagak — serigala serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Bayang Gagak\" (Crow Shadow): the wolf has jet-black fur with violet sheen, a mane of black crow feathers, glowing violet eyes and a violet tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN5_HUMAN_COMBAT": {
+    "src": "/generated-assets/skin5_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Duri Mawar — manusia serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Duri Mawar\" (Rose Thorn): deep rose-crimson hooded cloak with black thorny vine patterns and tiny rose blossoms, black scarf, dark red armor with small thorn spikes, glowing pink eyes, rose-red sickle and thorny vine hook chain. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN5_WOLF_ACTION": {
+    "src": "/generated-assets/skin5_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Duri Mawar — serigala aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Duri Mawar\" (Rose Thorn): the wolf has dark crimson fur wrapped in black thorny vines with tiny roses, a rose-red mane, glowing pink eyes and a black tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN5_HUMAN_MOVE": {
+    "src": "/generated-assets/skin5_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Duri Mawar — manusia gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Duri Mawar\" (Rose Thorn): deep rose-crimson hooded cloak with black thorny vine patterns and tiny rose blossoms on the hem, black scarf, dark red armor with small thorn spikes, glowing pink eyes, rose-red sickle. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN5_WOLF_MOVE": {
+    "src": "/generated-assets/skin5_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Duri Mawar — serigala gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Duri Mawar\" (Rose Thorn): the wolf has dark crimson fur wrapped in black thorny vines with tiny roses, a rose-red mane, glowing pink eyes and a black tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN5_ECLIPSE": {
+    "src": "/generated-assets/skin5_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Skin Duri Mawar — Eclipse",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Duri Mawar\" (Rose Thorn): the giant werewolf has dark crimson fur wrapped in black thorny vines with roses, a rose-red mane, glowing pink eyes, thorned cloak remnants and a black tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_eclipse-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN4_ECLIPSE": {
+    "src": "/generated-assets/skin4_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Skin Bayang Gagak — Eclipse",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Bayang Gagak\" (Crow Shadow): the giant werewolf has jet-black fur with violet sheen, a mane of black crow feathers, glowing violet eyes, feathered cloak remnants and a violet tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_eclipse-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN5_WOLF_COMBAT": {
+    "src": "/generated-assets/skin5_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Duri Mawar — serigala serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Duri Mawar\" (Rose Thorn): the wolf has dark crimson fur wrapped in black thorny vines with tiny roses, a rose-red mane, glowing pink eyes and a black tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN5_HUMAN_ACTION": {
+    "src": "/generated-assets/skin5_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Duri Mawar — manusia aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Duri Mawar\" (Rose Thorn): the human wears a deep rose-crimson cloak with black thorny vines and tiny roses, black scarf, dark red thorned armor, glowing pink eyes, rose-red sickle; the wolf (last row) has dark crimson fur wrapped in black thorny vines, a rose-red mane and the black scarf. Spark effects become rose petals pink. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN6_HUMAN_MOVE": {
+    "src": "/generated-assets/skin6_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Es Utara — manusia gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Es Utara\" (Northern Ice): icy pale-blue hooded cloak with frost crystals along the tattered hem, white fur collar, navy-blue scarf, frosted blue steel armor, glowing cyan eyes, ice-crystal sickle. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN6_HUMAN_COMBAT": {
+    "src": "/generated-assets/skin6_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Es Utara — manusia serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Es Utara\" (Northern Ice): icy pale-blue hooded cloak with frost crystals, white fur collar, navy-blue scarf, frosted blue steel armor, glowing cyan eyes, ice-crystal sickle and icy hook. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN6_HUMAN_ACTION": {
+    "src": "/generated-assets/skin6_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Es Utara — manusia aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Es Utara\" (Northern Ice): the human wears an icy pale-blue cloak with frost crystals, white fur collar, navy scarf, frosted blue armor, cyan eyes, ice-crystal sickle; the wolf (last row) has pale ice-blue and white fur with crystal ice spikes in the mane, cyan eyes and the navy scarf. Spark effects become icy cyan. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN6_WOLF_MOVE": {
+    "src": "/generated-assets/skin6_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Es Utara — serigala gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Es Utara\" (Northern Ice): the wolf has pale ice-blue and white fur, a mane of crystal ice spikes, glowing cyan eyes and a navy-blue tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN7_HUMAN_MOVE": {
+    "src": "/generated-assets/skin7_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Petir Badai — manusia gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Petir Badai\" (Storm Lightning): dark navy hooded cloak with bright yellow zigzag lightning trim on the hem, electric yellow scarf, black armor with yellow accents, glowing yellow eyes, sickle blade crackling electric yellow. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN6_WOLF_COMBAT": {
+    "src": "/generated-assets/skin6_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Es Utara — serigala serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Es Utara\" (Northern Ice): the wolf has pale ice-blue and white fur, a mane of crystal ice spikes, glowing cyan eyes and a navy-blue tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN6_ECLIPSE": {
+    "src": "/generated-assets/skin6_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Skin Es Utara — Eclipse",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Es Utara\" (Northern Ice): the giant werewolf has pale ice-blue and white fur, a mane of crystal ice spikes, glowing cyan eyes, frosted cloak remnants and a navy-blue tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_eclipse-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN7_HUMAN_COMBAT": {
+    "src": "/generated-assets/skin7_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Petir Badai — manusia serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Petir Badai\" (Storm Lightning): dark navy hooded cloak with bright yellow zigzag lightning trim, electric yellow scarf, black armor with yellow accents, glowing yellow eyes, sickle and hook crackling electric yellow. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN6_WOLF_ACTION": {
+    "src": "/generated-assets/skin6_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Es Utara — serigala aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Es Utara\" (Northern Ice): the wolf has pale ice-blue and white fur, a mane of crystal ice spikes, glowing cyan eyes and a navy-blue tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN7_WOLF_MOVE": {
+    "src": "/generated-assets/skin7_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Petir Badai — serigala gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Petir Badai\" (Storm Lightning): the wolf has dark slate-blue fur with bright crackling yellow lightning streaks, an electric pale-yellow mane, glowing yellow eyes and a yellow tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN7_HUMAN_ACTION": {
+    "src": "/generated-assets/skin7_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Petir Badai — manusia aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Petir Badai\" (Storm Lightning): the human wears a dark navy cloak with yellow zigzag lightning trim, electric yellow scarf, black armor with yellow accents, yellow eyes, electric sickle; the wolf (last row) has dark slate-blue fur with crackling yellow lightning streaks, yellow eyes and the yellow scarf. Spark effects become electric yellow. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN7_WOLF_ACTION": {
+    "src": "/generated-assets/skin7_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Petir Badai — serigala aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Petir Badai\" (Storm Lightning): the wolf has dark slate-blue fur with bright crackling yellow lightning streaks, an electric pale-yellow mane, glowing yellow eyes and a yellow tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN7_WOLF_COMBAT": {
+    "src": "/generated-assets/skin7_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Petir Badai — serigala serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Petir Badai\" (Storm Lightning): the wolf has dark slate-blue fur with bright crackling yellow lightning streaks, an electric pale-yellow mane, glowing yellow eyes and a yellow tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN7_ECLIPSE": {
+    "src": "/generated-assets/skin7_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Skin Petir Badai — Eclipse",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Petir Badai\" (Storm Lightning): the giant werewolf has dark slate-blue fur with crackling yellow lightning streaks, an electric pale-yellow mane, glowing yellow eyes, navy cloak remnants and a yellow tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_eclipse-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN8_HUMAN_MOVE": {
+    "src": "/generated-assets/skin8_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Darah Bulan — manusia gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Darah Bulan\" (Blood Moon): deep blood-red hooded cloak with a dark crimson tattered hem, black scarf, black and dark red armor with red trim, glowing red eyes, crimson sickle. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN8_HUMAN_COMBAT": {
+    "src": "/generated-assets/skin8_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Darah Bulan — manusia serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Darah Bulan\" (Blood Moon): deep blood-red hooded cloak, black scarf, black and dark red armor, glowing red eyes, crimson sickle and crimson hook chain. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN8_WOLF_MOVE": {
+    "src": "/generated-assets/skin8_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Darah Bulan — serigala gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Darah Bulan\" (Blood Moon): the wolf has blood-red fur with darker crimson shading, a jet-black spiky mane, glowing red eyes and a black tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN8_HUMAN_ACTION": {
+    "src": "/generated-assets/skin8_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Darah Bulan — manusia aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Darah Bulan\" (Blood Moon): the human wears a deep blood-red cloak, black scarf, black and dark red armor, glowing red eyes, crimson sickle; the wolf (last row) has blood-red fur with a black mane, glowing red eyes and the black scarf. Spark effects become crimson. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN8_WOLF_COMBAT": {
+    "src": "/generated-assets/skin8_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Darah Bulan — serigala serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Darah Bulan\" (Blood Moon): the wolf has blood-red fur with darker crimson shading, a jet-black spiky mane, glowing red eyes and a black tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN8_WOLF_ACTION": {
+    "src": "/generated-assets/skin8_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Darah Bulan — serigala aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Darah Bulan\" (Blood Moon): the wolf has blood-red fur with darker crimson shading, a jet-black spiky mane, glowing red eyes and a black tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN9_HUMAN_COMBAT": {
+    "src": "/generated-assets/skin9_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Roh Leluhur — manusia serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Roh Leluhur\" (Ancestor Spirit): luminous white hooded cloak with pale cyan glowing spirit runes, cyan scarf, white-and-gold armor, glowing cyan eyes, ghostly cyan sickle and cyan spirit hook chain. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN8_ECLIPSE": {
+    "src": "/generated-assets/skin8_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Skin Darah Bulan — Eclipse",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Darah Bulan\" (Blood Moon): the giant werewolf has blood-red fur, a jet-black spiky mane, glowing red eyes, dark red cloak remnants and a black tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_eclipse-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN9_WOLF_MOVE": {
+    "src": "/generated-assets/skin9_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Roh Leluhur — serigala gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Roh Leluhur\" (Ancestor Spirit): the wolf has glowing pale cyan-white spirit fur with cyan rune markings, a white mane with cyan tips, glowing cyan eyes and a white tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN9_ECLIPSE": {
+    "src": "/generated-assets/skin9_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Skin Roh Leluhur — Eclipse",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Roh Leluhur\" (Ancestor Spirit): the giant werewolf has glowing pale cyan-white spirit fur with cyan rune markings, a white mane, glowing cyan eyes, white-and-gold cloak remnants and a white tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_eclipse-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN9_WOLF_COMBAT": {
+    "src": "/generated-assets/skin9_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Roh Leluhur — serigala serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Roh Leluhur\" (Ancestor Spirit): the wolf has glowing pale cyan-white spirit fur with cyan rune markings, a white mane with cyan tips, glowing cyan eyes and a white tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN9_HUMAN_MOVE": {
+    "src": "/generated-assets/skin9_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Roh Leluhur — manusia gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Roh Leluhur\" (Ancestor Spirit): luminous white hooded cloak with pale cyan glowing spirit runes along the hem, cyan scarf, white-and-gold armor, glowing cyan eyes, ghostly cyan sickle. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN9_WOLF_ACTION": {
+    "src": "/generated-assets/skin9_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Roh Leluhur — serigala aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Roh Leluhur\" (Ancestor Spirit): the wolf has glowing pale cyan-white spirit fur with cyan rune markings, a white mane with cyan tips, glowing cyan eyes and a white tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN9_HUMAN_ACTION": {
+    "src": "/generated-assets/skin9_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Roh Leluhur — manusia aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Roh Leluhur\" (Ancestor Spirit): the human wears a luminous white cloak with pale cyan spirit runes, cyan scarf, white-and-gold armor, cyan eyes, ghostly cyan sickle; the wolf (last row) has glowing pale cyan-white spirit fur with cyan rune markings and a white scarf. Spark effects become cyan. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN10_HUMAN_MOVE": {
+    "src": "/generated-assets/skin10_human_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Gerhana Abadi — manusia gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Gerhana Abadi\" (Eternal Eclipse): black hooded cloak with golden eclipse-ring embroidery and gold-trimmed tattered hem, golden scarf, black-and-gold ornate armor, a thin golden circlet over the hood, glowing gold eyes, golden sickle. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN10_HUMAN_COMBAT": {
+    "src": "/generated-assets/skin10_human_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Gerhana Abadi — manusia serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Gerhana Abadi\" (Eternal Eclipse): black hooded cloak with golden eclipse-ring embroidery and gold trim, golden scarf, black-and-gold ornate armor, thin golden circlet over the hood, glowing gold eyes, golden sickle and golden hook chain. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN10_WOLF_MOVE": {
+    "src": "/generated-assets/skin10_wolf_move-transparent.webp",
+    "kind": "image",
+    "label": "Skin Gerhana Abadi — serigala gerak",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Gerhana Abadi\" (Eternal Eclipse): the wolf has midnight-black fur with golden eclipse markings, a black mane with gold tips, glowing gold eyes and a golden tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_move-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN10_HUMAN_ACTION": {
+    "src": "/generated-assets/skin10_human_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Gerhana Abadi — manusia aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and costume details. New look \"Gerhana Abadi\" (Eternal Eclipse): the human wears a black cloak with golden eclipse embroidery, golden scarf, black-and-gold armor, golden circlet, gold eyes, golden sickle; the wolf (last row) has midnight-black fur with golden markings, gold-tipped mane, gold eyes and the golden scarf. Spark effects become gold. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_human_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN10_WOLF_COMBAT": {
+    "src": "/generated-assets/skin10_wolf_combat-transparent.webp",
+    "kind": "image",
+    "label": "Skin Gerhana Abadi — serigala serang",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Gerhana Abadi\" (Eternal Eclipse): the wolf has midnight-black fur with golden eclipse markings, a black mane with gold tips, glowing gold eyes and a golden tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_combat-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN10_ECLIPSE": {
+    "src": "/generated-assets/skin10_eclipse-transparent.webp",
+    "kind": "image",
+    "label": "Skin Gerhana Abadi — Eclipse",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Gerhana Abadi\" (Eternal Eclipse): the giant werewolf has midnight-black fur with glowing golden eclipse markings, a black mane with gold tips, glowing gold eyes, black-and-gold cloak remnants with a golden crown-like ridge and a golden tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_eclipse-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_GUNNER": {
+    "src": "/generated-assets/mon_gunner-transparent.webp",
+    "kind": "image",
+    "label": "Penembak gerbong",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Penembak gerbong\" (train gunner): a soot-stained railway hunter with brass goggles and a leather gas mask, a heavy brown coat with brass buttons, holding a short brass blunderbuss instead of the crossbow. Palette: soot black, rust brown, brass gold. Keep the crisp dark ink outline and two-tone cel shading. No background, no muzzle flash, no text.",
+      "refs": [
+        "public/generated-assets/enemy_archer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_TOAD": {
+    "src": "/generated-assets/mon_toad-transparent.webp",
+    "kind": "image",
+    "label": "Kodok rawa",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Kodok rawa\" (bog toad): first row is a lumpy moss-covered mud mound with two glowing yellow eyes peeking out; second row the mound bursts open revealing a huge warty swamp toad; third row the toad lunges with a wide mouth and long sticky tongue; fourth row the toad recoils hurt. Palette: murky green, mud brown, sickly yellow eyes. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_mimic-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_WRAITH": {
+    "src": "/generated-assets/mon_wraith-transparent.webp",
+    "kind": "image",
+    "label": "Hantu lumpur",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Hantu lumpur\" (mud wraith): a hovering ghost made of dripping swamp mud and rotten reeds, hollow glowing green eyes, long muddy clawed fingers, holding a bundle of glowing marsh weeds instead of the needle, trailing a sticky green mud tendril. Palette: mud brown, swamp green, glowing lime eyes. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_stitcher-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_FROST": {
+    "src": "/generated-assets/mon_frost-transparent.webp",
+    "kind": "image",
+    "label": "Prajurit es",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Prajurit es\" (frost soldier): an undead soldier in frozen pale-blue armor coated with icicles, glowing cyan eye slit, holding a huge tower shield of jagged blue ice crystal instead of the thorn shield. Palette: frost white, ice blue, dark navy. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_knight-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_STAG": {
+    "src": "/generated-assets/mon_stag-transparent.webp",
+    "kind": "image",
+    "label": "Rusa duri",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Rusa duri\" (thorn stag): a lean dark forest stag with bark-textured hide, huge antlers made of thorny black branches with a few red leaves, glowing amber eyes, charging head-down in the bite row. Palette: dark bark brown, black thorns, crimson leaves. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_hound-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_RAT": {
+    "src": "/generated-assets/mon_rat-transparent.webp",
+    "kind": "image",
+    "label": "Tikus besi",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Tikus besi\" (iron rat): a giant clockwork rat of rusty riveted iron plates with round ears, long segmented metal tail, glowing red eyes, sharp steel incisors and small exposed gears. Palette: rust orange, dark iron, red glow. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_hound-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_SPRITE": {
+    "src": "/generated-assets/mon_sprite-transparent.webp",
+    "kind": "image",
+    "label": "Peri ranting",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Peri ranting\" (twig sprite): a small malicious forest fae built from twisted twigs and dry leaves, with wings of veined crimson leaves, a skull-like bark face with glowing green eyes and thorny claws. Palette: dry brown twigs, crimson leaves, green glow. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_crow-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "SKIN10_WOLF_ACTION": {
+    "src": "/generated-assets/skin10_wolf_action-transparent.webp",
+    "kind": "image",
+    "label": "Skin Gerhana Abadi — serigala aksi",
+    "recipe": {
+      "prompt": "Restyle this sprite sheet as a new costume skin. Keep EVERY frame's pose, body position, size, silhouette, facing and the exact grid layout identical — only change colors and details. New look \"Gerhana Abadi\" (Eternal Eclipse): the wolf has midnight-black fur with golden eclipse markings, a black mane with gold tips, glowing gold eyes and a golden tattered scarf. Keep the crisp dark ink outline and two-tone cel shading. No background, no new objects, no text.",
+      "refs": [
+        "public/generated-assets/hero_wolf_action-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_BAT": {
+    "src": "/generated-assets/mon_bat-transparent.webp",
+    "kind": "image",
+    "label": "Kelelawar beku",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Kelelawar beku\" (frost bat): a large bat with frost-covered pale blue leathery wings, icicle claws, white fur and glowing cyan eyes, small fangs. Palette: pale ice blue, white frost, navy shadows. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_crow-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_DANCER": {
+    "src": "/generated-assets/mon_dancer-transparent.webp",
+    "kind": "image",
+    "label": "Penari topeng",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Penari topeng\" (mask dancer): a tall slender carnival dancer in a flowing purple-and-gold harlequin robe, a smiling white porcelain mask with gold cracks, holding a bladed golden fan on a pole instead of the lantern. Palette: royal purple, gold, porcelain white. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_lantern-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_KNIFER": {
+    "src": "/generated-assets/mon_knifer-transparent.webp",
+    "kind": "image",
+    "label": "Pelempar pisau",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Pelempar pisau\" (knife thrower): a masked market rogue in a red-and-black striped vest, a grinning red demon half-mask, a belt full of throwing knives, holding a fan of silver throwing knives instead of the crossbow. Palette: crimson, black, silver. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_archer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_SPIDER": {
+    "src": "/generated-assets/mon_spider-transparent.webp",
+    "kind": "image",
+    "label": "Laba-laba gua",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Laba-laba gua\" (cave spider): a big hairy cave spider hanging upright from a silk thread above it, eight thin legs, a cluster of glowing teal eyes, crystal shards on its abdomen, the casting pose flings a strand of white web forward. Palette: black-brown fur, teal glowing eyes, white silk. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_stitcher-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_GOLEM": {
+    "src": "/generated-assets/mon_golem-transparent.webp",
+    "kind": "image",
+    "label": "Golem kristal",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Golem kristal\" (crystal golem): a hulking golem of dark grey cave rock with jutting glowing teal crystals, a glowing teal eye slit, one arm a huge flat slab of crystal held in front like a shield. Palette: slate grey rock, glowing teal and violet crystal. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_knight-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_MONK": {
+    "src": "/generated-assets/mon_monk-transparent.webp",
+    "kind": "image",
+    "label": "Biarawan lonceng",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Biarawan lonceng\" (bell monk): a hooded monk in a heavy grey-brown habit with a rope belt, face hidden in shadow with two pale eyes, holding forward a small brass bell with a glowing candle inside on a short staff instead of the lantern. Palette: grey-brown wool, brass, warm candle glow. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_lantern-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_PIRATE": {
+    "src": "/generated-assets/mon_pirate-transparent.webp",
+    "kind": "image",
+    "label": "Bajak laut tenggelam",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Bajak laut tenggelam\" (drowned pirate): a waterlogged undead pirate with pale green-grey skin, seaweed hanging from a torn tricorn hat and long coat, barnacles on the shoulders, glowing teal eyes, holding a long rusty flintlock musket instead of the crossbow. Palette: sea green, rotten brown, teal glow. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_archer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_OCTOPUS": {
+    "src": "/generated-assets/mon_octopus-transparent.webp",
+    "kind": "image",
+    "label": "Gurita bayangan",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Gurita bayangan\" (shadow octopus): first row is a dark inky puddle with a few curled tentacle tips and two glowing violet eyes; second row a black-violet octopus rises from the puddle; third row it lashes forward with long tentacles and a beak; fourth row it recoils hurt splashing ink. Palette: ink black, deep violet, glowing violet eyes. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_mimic-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_GARGOYLE": {
+    "src": "/generated-assets/mon_gargoyle-transparent.webp",
+    "kind": "image",
+    "label": "Gargoyle",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Gargoyle\": a small winged stone gargoyle with cracked grey stone skin, bat-like stone wings, curled horns, a snarling fanged face and glowing orange eyes. Palette: weathered grey stone, moss accents, orange glow. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_crow-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_ASHWOLF": {
+    "src": "/generated-assets/mon_ashwolf-transparent.webp",
+    "kind": "image",
+    "label": "Serigala abu",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Serigala abu\" (ash wolf): a gaunt feral wolf made of grey ash and charcoal with glowing ember cracks in its body, smoldering orange eyes, smoke trailing from its back, burnt black claws. Palette: ash grey, charcoal, ember orange. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_hound-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_WITCH": {
+    "src": "/generated-assets/mon_witch-transparent.webp",
+    "kind": "image",
+    "label": "Penyihir bara",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Penyihir bara\" (ember witch): a hovering witch in burnt black-red tattered robes fading into smoke, a pointed charred hat, a pale gaunt face with glowing orange eyes, holding a crooked burning wand instead of the needle, trailing a ribbon of fire. Palette: charcoal black, deep red, fire orange. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_stitcher-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_MOONGUARD": {
+    "src": "/generated-assets/mon_moonguard-transparent.webp",
+    "kind": "image",
+    "label": "Penjaga bulan",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Penjaga bulan\" (moon guard): a tall knight in polished white-silver armor with gold crescent engravings, a faceless helm with a glowing pale-blue visor, a long white cape, holding a large round silver shield shaped like a full moon instead of the thorn shield. Palette: moon white, silver, gold, pale blue glow. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_knight-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1200",
+        "removeBackground": true
+      }
+    }
+  },
+  "MON_MIRROR": {
+    "src": "/generated-assets/mon_mirror-transparent.webp",
+    "kind": "image",
+    "label": "Bayangan cermin",
+    "recipe": {
+      "prompt": "Turn this enemy sprite sheet into a new enemy while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New enemy \"Bayangan cermin\" (mirror shade): first row is a fallen shard of silver mirror lying on the floor reflecting pale light; second row a slender glassy humanoid shade made of cracked mirror pieces rises out of it; third row it lunges with sharp glass claws; fourth row it cracks and recoils. Palette: silver glass, pale blue reflections, black cracks. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/enemy_mimic-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A1": {
+    "src": "/generated-assets/boss_a1-transparent.webp",
+    "kind": "image",
+    "label": "Boss Lokomotif Pemburu",
+    "recipe": {
+      "prompt": "Turn this boss sprite sheet into a new boss while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New boss \"Lokomotif Pemburu\" (Hunter Locomotive): a monstrous steam-engine beast shaped like a huge iron wolf — riveted black iron body, a glowing orange furnace mouth with iron teeth, a smokestack on its back puffing soot, brass pipes and pistons for legs, red lantern eyes. The last row is the same machine reared up as a towering iron engine giant smashing down both piston fists. Palette: black iron, brass, furnace orange, soot grey. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/boss_wolf-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A3": {
+    "src": "/generated-assets/boss_a3-transparent.webp",
+    "kind": "image",
+    "label": "Boss Rusa Menara",
+    "recipe": {
+      "prompt": "Turn this boss sprite sheet into a new boss while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New boss \"Rusa Menara\" (Tower Stag): a colossal ancient stag with moss-covered bark-like hide, enormous antlers like a dead tree hung with a rusty cursed bell and chains, glowing white eyes, hooves of stone. The last row is the stag reared up on its hind legs as a towering giant, stomping down. Palette: dark bark brown, moss green, bone white, rusty bell gold. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/boss_wolf-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A2": {
+    "src": "/generated-assets/boss_a2-transparent.webp",
+    "kind": "image",
+    "label": "Boss Ratu Kunang",
+    "recipe": {
+      "prompt": "Turn this boss sprite sheet into a new boss while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New boss \"Ratu Kunang\" (Firefly Queen): a tall swamp fae queen with dark green-black skin, a crown of reeds and glowing yellow-green orbs, translucent insect wings glowing lime, a gown of dark moss and lily pads, holding a thorny reed scepter instead of the sickle. In the last row she bursts into a swarm of glowing fireflies. Palette: swamp black-green, lime glow, gold. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/boss_human-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A4": {
+    "src": "/generated-assets/boss_a4-transparent.webp",
+    "kind": "image",
+    "label": "Boss Raja Mayat Beku",
+    "recipe": {
+      "prompt": "Turn this boss sprite sheet into a new boss while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New boss \"Raja Mayat Beku\" (Frozen Corpse King): a towering undead king with frost-blue skeletal face, an icicle crown, a tattered royal cloak of frozen blue velvet and white fur, frosted armor, holding a jagged ice greatsword instead of the sickle. In the last row he erupts into a burst of ice crystals. Palette: ice blue, frost white, royal navy. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/boss_human-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A5": {
+    "src": "/generated-assets/boss_a5-transparent.webp",
+    "kind": "image",
+    "label": "Boss Dalang Seribu Topeng",
+    "recipe": {
+      "prompt": "Turn this boss sprite sheet into a new boss while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New boss \"Dalang Seribu Topeng\" (Puppeteer of a Thousand Masks): a lanky puppeteer in a purple and gold carnival coat covered with dozens of tiny hanging masks, a large golden grinning mask face, glowing puppet strings from his long fingers, holding a hooked puppet-control cross instead of the sickle. In the last row he explodes into a whirl of flying masks. Palette: royal purple, gold, porcelain white, crimson. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/boss_human-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A7": {
+    "src": "/generated-assets/boss_a7-transparent.webp",
+    "kind": "image",
+    "label": "Boss Lonceng Kutukan",
+    "recipe": {
+      "prompt": "Turn this boss sprite sheet into a new boss while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New boss \"Lonceng Kutukan\" (Cursed Bell): a hulking golem whose torso and head are a huge cracked bronze church bell with a single glowing red eye in the bell mouth, arms and legs of black chains and broken stone, holding a giant bell clapper as a club instead of the sickle. In the last row it rings out in a burst of rippling sound rings. Palette: tarnished bronze, black iron chains, red glow. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/boss_human-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A6": {
+    "src": "/generated-assets/boss_a6-transparent.webp",
+    "kind": "image",
+    "label": "Boss Cacing Kristal",
+    "recipe": {
+      "prompt": "Use case: boss animation sheet for a side-view 2D dark-fantasy platformer.\nSubject (identical in every frame): Cacing Kristal — a giant armored cave worm rearing up from the ground, segmented body of dark slate rock plates with glowing teal and violet crystals jutting from its back, a round mouth ringed with crystal fangs, no eyes, the lower body emerging from a pile of rubble at the bottom of the cell. Side view, facing right.\nRows: idle = swaying upright, mouth pulsing (looping); move = slithering forward with body undulating (looping); attack = rearing back then lunging its fanged mouth forward and down; special = diving headfirst into the ground until only rubble and crystals remain.\nStyle: hand-painted flat dark-fantasy look, crisp dark ink outline, two-tone cel shading, slate grey, teal and violet crystal glow. Match the attached reference style.\nComposition: same size in every frame; rubble base on a consistent ground line; whole body inside each cell.\nAvoid: background, text, extra creatures.",
+      "refs": [
+        "https://cdn.playabl.ai/ai-reference-images/6ad0884154f20e8adc295c37/af_1792051350534_ewzrhvr.png"
+      ],
+      "playabl": {
+        "tool": "image_gen",
+        "kind": "sprite_sheet",
+        "animations": [
+          {
+            "name": "idle",
+            "frames": 5
+          },
+          {
+            "name": "move",
+            "frames": 5
+          },
+          {
+            "name": "attack",
+            "frames": 5
+          },
+          {
+            "name": "special",
+            "frames": 5
+          }
+        ],
+        "facing": "right",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A10": {
+    "src": "/generated-assets/boss_a10-transparent.webp",
+    "kind": "image",
+    "label": "Boss Penjaga Bulan Terkurung",
+    "recipe": {
+      "prompt": "Turn this boss sprite sheet into a new boss while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New boss \"Penjaga Bulan Terkurung\" (Warden of the Caged Moon): a celestial beast-wolf made of white marble and moonlight, golden armor plates with crescent engravings, a mane of flowing silver light, glowing pale-blue eyes, chains of gold trailing from its collar. The last row is the warden risen as a towering radiant moon titan in golden armor, smashing both fists down. Palette: moon white, gold, pale blue glow, deep indigo shadows. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/boss_wolf-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A9": {
+    "src": "/generated-assets/boss_a9-transparent.webp",
+    "kind": "image",
+    "label": "Boss Pemburu Agung",
+    "recipe": {
+      "prompt": "Turn this boss sprite sheet into a new boss while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New boss \"Pemburu Agung\" (Grand Hunter): the leader of the masked hunters — a tall imposing man in a long blood-red and black leather hunting coat with fur collar, an ornate silver plague-beak mask with red glass eyes, a wide-brimmed hat with a wolf skull, crossbow on the back, wielding a massive serrated silver hunting cleaver instead of the sickle. In the last row he bursts into a ring of fire and silver shards. Palette: blood red, black leather, silver, fire orange. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/boss_human-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "BOSS_A8": {
+    "src": "/generated-assets/boss_a8-transparent.webp",
+    "kind": "image",
+    "label": "Boss Kapten Tanpa Wajah",
+    "recipe": {
+      "prompt": "Turn this boss sprite sheet into a new boss while keeping EVERY frame's pose, body position, size, facing and the exact grid layout identical. New boss \"Kapten Tanpa Wajah\" (Faceless Captain): a ghostly pirate captain in a long tattered navy captain's coat with gold buttons and a huge feathered tricorn hat, a smooth blank face with no features except a faint glowing teal mist, seaweed and chains on his shoulders, holding a curved rusty cutlass instead of the sickle. In the last row he dissolves into a splash of black sea ink. Palette: navy, gold, sea teal, ink black. Keep the crisp dark ink outline and two-tone cel shading. No background, no text.",
+      "refs": [
+        "public/generated-assets/boss_human-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "sprite_sheet",
+        "keptSourceSize": "1968x1584",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A1": {
+    "src": "/generated-assets/tiles_a1-transparent.webp",
+    "kind": "image",
+    "label": "Tile atap gerbong",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: riveted dark iron train-car panels with rust streaks and brass rivet rows; the top edge is a curved metal roof rim with a thin walkway grating instead of moss; sides are riveted steel corners; the bottom edge is a dark undercarriage lip. Palette: dark iron grey, rust brown, brass. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_village-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A2": {
+    "src": "/generated-assets/tiles_a2-transparent.webp",
+    "kind": "image",
+    "label": "Tile rawa lentera",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: dark wet swamp mud with tangled black roots and sunken stones; the top edge is thick green moss with short reeds and tiny glowing yellow-green mushrooms instead of red leaves; sides drip mud; bottom edge dangling wet roots. Palette: murky brown, swamp green, lime glow accents. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_forest-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A4": {
+    "src": "/generated-assets/tiles_a4-transparent.webp",
+    "kind": "image",
+    "label": "Tile makam salju",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: pale grey-blue frozen crypt stone bricks with frost cracks; the top edge is a thick layer of white snow with small icicles instead of moss; sides are frosted stone; bottom edge hangs with icicles. Palette: frost white, pale ice blue, slate. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_village-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A3": {
+    "src": "/generated-assets/tiles_a3-transparent.webp",
+    "kind": "image",
+    "label": "Tile menara rusa",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: gnarled giant-tree bark and woven living roots; the top edge has soft green moss, ferns and a few golden autumn leaves instead of red leaves; sides are rough bark; bottom edge hanging root tendrils. Palette: deep bark brown, moss green, gold leaves. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_forest-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A5": {
+    "src": "/generated-assets/tiles_a5-transparent.webp",
+    "kind": "image",
+    "label": "Tile pasar topeng",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: warm terracotta and purple painted bricks of a night market; the top edge is a strip of colorful patterned carpet with gold tassels instead of moss; sides are painted brick; bottom edge crumbling brick. Palette: terracotta, royal purple, gold. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_village-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A9": {
+    "src": "/generated-assets/tiles_a9-transparent.webp",
+    "kind": "image",
+    "label": "Tile hutan abu",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: scorched black earth and charcoal roots with glowing orange ember cracks; the top edge is grey ash and burnt grass with small embers instead of red leaves; sides crumbling charcoal; bottom edge burnt dangling roots. Palette: charcoal black, ash grey, ember orange. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_forest-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A6": {
+    "src": "/generated-assets/tiles_a6-transparent.webp",
+    "kind": "image",
+    "label": "Tile tambang kristal",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: dark cave rock with veins of glowing teal and violet crystal; the top edge has small jutting crystal clusters and gravel instead of moss; sides are fractured rock; bottom edge has hanging crystal stalactites. Palette: charcoal slate, teal and violet glow. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_village-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A7": {
+    "src": "/generated-assets/tiles_a7-transparent.webp",
+    "kind": "image",
+    "label": "Tile biara lonceng",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: weathered sandstone abbey blocks with carved gothic trim; the top edge is a carved stone cornice with a thin line of ivy and fallen candle wax instead of moss; sides are carved pillars; bottom edge broken masonry. Palette: warm grey sandstone, ivy green, faded gold. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_village-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A1": {
+    "src": "/generated-assets/layer_a1-transparent.webp",
+    "kind": "image",
+    "label": "Siluet kereta pemburu",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: distant rolling hills with a railway bridge, telegraph poles, smoking factory chimneys and dead trees, a few tiny warm windows. Keep a continuous dark base at the bottom, empty above the skyline, flat dark slate-indigo silhouettes with subtle lighter rims and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A3": {
+    "src": "/generated-assets/layer_a3-transparent.webp",
+    "kind": "image",
+    "label": "Siluet menara rusa",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: colossal ancient tree trunks as tall as towers with huge spreading roots, hanging vines, and a few golden glowing leaves. Keep a continuous dark base at the bottom, empty above the canopy, flat dark brown-indigo silhouettes with subtle lighter rims and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A8": {
+    "src": "/generated-assets/tiles_a8-transparent.webp",
+    "kind": "image",
+    "label": "Tile pelabuhan kabut",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: rotting dark wooden ship hull planks with iron nails and barnacles; the top edge is a weathered deck plank rail with coiled rope and seaweed instead of moss; sides are hull planks; bottom edge broken planks dripping water. Palette: dark wet wood brown, sea green, iron grey. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_village-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A6": {
+    "src": "/generated-assets/layer_a6-transparent.webp",
+    "kind": "image",
+    "label": "Siluet tambang kristal",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: a cavern of giant glowing crystal spires, mine-cart rails on wooden trestles, hanging lanterns and stalagmites. Keep a continuous dark base at the bottom, empty above, flat dark slate-violet silhouettes with teal crystal glints and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A5": {
+    "src": "/generated-assets/layer_a5-transparent.webp",
+    "kind": "image",
+    "label": "Siluet pasar topeng",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: a night carnival market with striped tents, onion domes, strings of paper lanterns, a ferris wheel and giant mask banners, tiny warm lights. Keep a continuous dark base at the bottom, empty above the skyline, flat dark purple-indigo silhouettes with subtle gold rims and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A9": {
+    "src": "/generated-assets/layer_a9-transparent.webp",
+    "kind": "image",
+    "label": "Siluet hutan abu",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: a burned forest of charred leafless trees, smoldering stumps with small orange ember glows, collapsed hunter watchtowers and rising smoke columns. Keep a continuous dark base at the bottom, empty above the skyline, flat charcoal silhouettes with ember-orange rims and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A4": {
+    "src": "/generated-assets/layer_a4-transparent.webp",
+    "kind": "image",
+    "label": "Siluet makam salju",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: a snowy graveyard with mausoleums, tilted crosses, frozen pine trees and a distant ice castle spire, snow on every rooftop. Keep a continuous dark base at the bottom, empty above the skyline, flat pale-blue-slate silhouettes with white snow rims and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A10": {
+    "src": "/generated-assets/layer_a10-transparent.webp",
+    "kind": "image",
+    "label": "Siluet istana bulan",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: a palace above the clouds with slender white towers, golden domes with crescent finials, floating stairways and puffy cloud banks at the base. Keep a continuous cloud-and-marble base at the bottom, empty above the skyline, flat pale indigo-white silhouettes with gold rims and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  },
+  "TILES_A10": {
+    "src": "/generated-assets/tiles_a10-transparent.webp",
+    "kind": "image",
+    "label": "Tile istana bulan",
+    "recipe": {
+      "prompt": "Restyle this nine-slice terrain tile set into a new material while keeping the exact outer shape, edge positions, grid and seamless tiling identical. New material: polished white moon-marble blocks with faint pale-blue veins; the top edge is a gold-inlaid marble ledge with tiny crescent engravings and a wisp of cloud instead of moss; sides marble with gold trim; bottom edge carved marble fading into cloud. Palette: moon white, gold, pale blue. Keep crisp dark ink outlines and two-tone cel shading. No text, no background.",
+      "refs": [
+        "public/generated-assets/tiles_village-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "tiles",
+        "keptSourceSize": "1088x1088",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A7": {
+    "src": "/generated-assets/layer_a7-transparent.webp",
+    "kind": "image",
+    "label": "Siluet biara lonceng",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: a ruined gothic abbey with broken arches, tall bell towers with hanging bells, rose windows glowing faint amber and cypress trees. Keep a continuous dark base at the bottom, empty above the skyline, flat dark slate silhouettes with subtle lighter rims and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A2": {
+    "src": "/generated-assets/layer_a2-transparent.webp",
+    "kind": "image",
+    "label": "Siluet rawa lentera",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: a swamp of drooping willow trees, cattail reeds, crooked stilt huts with tiny lime-green lanterns, and hanging moss. Keep a continuous dark base at the bottom, empty above the skyline, flat dark green-indigo silhouettes with subtle lighter rims and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  },
+  "LAYER_A8": {
+    "src": "/generated-assets/layer_a8-transparent.webp",
+    "kind": "image",
+    "label": "Siluet pelabuhan kabut",
+    "recipe": {
+      "prompt": "Replace the village silhouettes with a new horizontally looping silhouette band of the same height and layout: a foggy harbor with sunken ghost ships, broken masts with torn sails, a lighthouse, wooden piers and crane hooks, a few teal lights. Keep a continuous dark base at the bottom like dark water, empty above the skyline, flat dark teal-indigo silhouettes with subtle lighter rims and ink outlines, edges that tile seamlessly left-right. No sky, no text.",
+      "refs": [
+        "public/generated-assets/village_layer-transparent.webp"
+      ],
+      "playabl": {
+        "tool": "image_gen_edit",
+        "kind": "backdrop",
+        "keptSourceSize": "2400x517",
+        "removeBackground": true
+      }
+    }
+  }
+}
