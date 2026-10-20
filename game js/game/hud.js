@@ -81,14 +81,18 @@ export function createHud({ mount, handlers }) {
       </div>
     </div>
     <div class="overlay result-overlay" hidden>
-      <div class="panel">
-        <h2 class="panel-title result-title">Bulan Terbebas</h2>
-        <div class="result-sub"></div>
-        <dl class="stats"></dl>
-        <button class="menu-btn primary next-btn" type="button" data-menu="next"><span class="control-label">Area berikutnya</span></button>
-        <button class="menu-btn" type="button" data-menu="again"><span class="control-label">Main lagi</span></button>
-        <button class="menu-btn" type="button" data-menu="map"><span class="control-label">Peta Perjalanan</span></button>
-        <button class="menu-btn" type="button" data-menu="wardrobe"><span class="control-label">Lemari Skin</span></button>
+      <div class="panel result-panel">
+        <div class="result-main">
+          <h2 class="panel-title result-title">Bulan Terbebas</h2>
+          <div class="result-sub"></div>
+          <dl class="stats"></dl>
+        </div>
+        <div class="result-actions">
+          <button class="menu-btn primary next-btn" type="button" data-menu="next"><span class="control-label">Area berikutnya</span></button>
+          <button class="menu-btn" type="button" data-menu="again"><span class="control-label">Main lagi</span></button>
+          <button class="menu-btn" type="button" data-menu="map"><span class="control-label">Peta Perjalanan</span></button>
+          <button class="menu-btn" type="button" data-menu="wardrobe"><span class="control-label">Lemari Skin</span></button>
+        </div>
       </div>
     </div>
     <div class="overlay map-overlay" hidden>
@@ -348,6 +352,7 @@ export function createHud({ mount, handlers }) {
       const mm = String(Math.floor(time / 60));
       const ss = String(time % 60).padStart(2, "0");
       el.resultSub.textContent = state.newBest ? "Rekor baru!" : stage ? (area < 10 ? `${meta.areas[area + 1].name} terbuka` : "Bulan kembali bersinar bebas") : "Sejauh ini kau berlari";
+      el.resultSub.classList.toggle("is-record", Boolean(state.newBest));
       const rows = stage
         ? [["Skor", state.score], ["Waktu", `${mm}:${ss}`], ["Pecahan bulan", `${s.shards}/${s.shardsTotal}`], ["Combo terbaik", s.bestCombo], ["Skor terbaik", meta.bestScore]]
         : [["Skor", state.score], ["Jarak", `${Math.floor(s.distance)} m`], ["Combo terbaik", s.bestCombo], ["Skor terbaik", meta.endlessBest]];
