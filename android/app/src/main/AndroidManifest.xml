@@ -4,13 +4,6 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name=".GameActivity"
-            android:exported="false"
-            android:screenOrientation="sensorLandscape"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.Material.NoActionBar" />
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"

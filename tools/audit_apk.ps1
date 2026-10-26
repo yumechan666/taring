@@ -6,7 +6,7 @@ $apkPath = (Resolve-Path (Join-Path $root $Apk)).Path
 $zip = [IO.Compression.ZipFile]::OpenRead($apkPath)
 try {
     $checked = 0
-    foreach ($folder in @('game js', 'assets/images', 'assets/json', 'assets/audio')) {
+    foreach ($folder in @('assets/images', 'assets/audio')) {
         foreach ($file in Get-ChildItem -LiteralPath (Join-Path $root $folder) -File -Recurse) {
             $relative = $file.FullName.Substring($root.Length + 1).Replace('\', '/')
             $encoded = ($relative.Split('/') | ForEach-Object { [Uri]::EscapeDataString($_) }) -join '/'
@@ -22,5 +22,5 @@ try {
             $checked++
         }
     }
-    Write-Output "PASS: $checked bundled files match source, including encoded game%20js paths."
+    Write-Output "PASS: $checked bundled Flutter asset files match source."
 } finally { $zip.Dispose() }

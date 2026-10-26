@@ -1,8 +1,7 @@
-import 'dart:convert';
 import 'package:flame/components.dart' show Vector2;
 import 'package:flame/widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import '../data/game_data_access.dart';
 
 /// Display one atlas frame instead of shrinking the entire sheet into a card.
 class SkinPreview extends StatefulWidget {
@@ -17,8 +16,7 @@ class _SkinPreviewState extends State<SkinPreview> {
   late Future<Map<String, dynamic>> _frame = _load();
 
   Future<Map<String, dynamic>> _load() async {
-    final json = await rootBundle.loadString('assets/json/${widget.file.replaceFirst('.webp', '.frames.json')}');
-    final data = jsonDecode(json) as Map<String, dynamic>;
+    final data = gameJson(widget.file.replaceFirst('.webp', '.frames.json'));
     final frame = (data['frames'] as List).cast<Map<String, dynamic>>().firstWhere((frame) => frame['name'] == 'idle_1');
     return (frame['content'] ?? frame['source']) as Map<String, dynamic>;
   }
